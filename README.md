@@ -1,15 +1,4 @@
-![Qwakeactyl Home Page](https://media.discordapp.net/attachments/990890523483058216/991598758624247858/unknown.png)
-![Qwakeactyl Login Page](https://media.discordapp.net/attachments/990890523483058216/991597051148255353/unknown.png)
-<hr>
-
-# Discord
-[discord server](https://discord.gg/k26zKJVf)
-https://discord.gg/icdev
-
-# Qwakeactyl V2 | The Best Control Panel For Pterodactyl
-Making a free or paid host and need a way for users to sign up, earn coins, manage servers? Try out Qwakeactyl.
-To get started, scroll down and follow the guide
-
+# Qwakeactyl V2
 All features:
 - Resource Management (gift, use it to create servers, etc)
 - Coins (AFK Page earning)
@@ -42,52 +31,6 @@ All features:
  - Added linkvertise
  - Added new 404 Page
  - All Files css, scss& js files are now at qwakeactyl Cdn which makes less load and faster speed 
-
-# Warning
-
-We cannot force you to keep the "Powered by Qwakeactyl" in the footer, but please consider keeping it. It helps getting more visibility to the project and so getting better. We won't do technical support for installations without the notice in the footer.
-
-# Disclaimer
-
-We are not responsible for any damages.
-
-# Dependence for windows installer
-
-Git [Download](https://git-scm.com/downloads)
-
-Node.js [Download](https://nodejs.org/en/download/)
-
-only for windows installer
-
-# install in VPS
-
-<h2>Installing Dependencies</h2>
-
-`sudo apt update && sudo apt upgrade`<br>
-`sudo apt install git`<br>
-`curl -fsSL https://deb.nodesource.com/setup_14.x | sudo bash -`<br>
-`apt install nodejs`<br>
-`npm -v`<br>
-`git clone https://github.com/Qwakeactyl/Qwakeactyl.git`<br>
-`cd Qwakeactyl`<br>
-`npm install`<br>
-`apt install nginx`<br>
-`sudo apt install certbot`<br>
-`sudo apt install -y python3-certbot-nginx`
-
-
-# start command
-```js
-$ npm start
-```
-
-<hr>
-
-# Themes
-
-![Normal (Main)](https://media.discordapp.net/attachments/990890523483058216/991598758624247858/unknown.png)
-
-
 
 
 # Credits
