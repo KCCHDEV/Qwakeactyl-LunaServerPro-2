@@ -17,8 +17,8 @@
                     <% if (req.session.newaccount) { %>
                     <div class="alert alert-default alert-dismissible fade show" role="alert">
                         <span class="alert-icon"><i class="fas fa-plus-circle"></i></span>
-                        <span class="alert-text"><strong>Congratulations!</strong> A new account has been created for
-                            you on the Pterodactyl Panel</span>
+                        <span class="alert-text"><strong>Congratulations!</strong> บัญชีของคุณถูกสร้างแล้ว ใช้ id Discord ในการ login panel 
+                            !!กดที่ปุ่ม Password Reset เพื่อรับรหัสผ่าน!!</span>
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -27,13 +27,12 @@
                     <% if (req.session.password) { %>
                     <div class="alert alert-success">
                         <span>Your <% if (!req.session.newaccount) { %>new <% } %>password is
-                            <code><%= req.session.password %></code>! Make sure to keep this password in a safe
-                            place</span>
+                            <code><%= req.session.password %></code> !โปรดตรวจสอบว่าได้จัดเก็บรหัสไว้อย่างปลอดภัย</span>
                     </div>
                     <div class="alert alert-default alert-dismissible fade show" role="alert">
                         <span class="alert-icon"><i class="ni ni-like-2"></i></span>
-                        <span class="alert-text"><strong><%= req.session.password %></strong> is the password to your
-                            pterodactyl account.</span>
+                        <span class="alert-text"><strong><%= req.session.password %></strong> รหัสผ่านเข้า panel ของคุณ
+                        ใช้ Discord id ในการ Login</span>
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -92,12 +91,12 @@
                 <div class="header-body">
                     <div class="row align-items-center py-4">
                         <div class="col-lg-6 col-7">
-                            <h6 class="h2 text-white d-inline-block mb-0">Welcome <%= req.session.userinfo.username%>!
+                            <h6 class="h2 text-white d-inline-block mb-0">ยินดีต้อนรับ <%= req.session.userinfo.username%>!
                             </h6>
                         </div>
                         <div class="col-lg-6 col-5 text-right">
                             <a href="<%= settings.pterodactyl.domain %>" class="btn btn-sm btn-neutral">Panel</a>
-                            <a href="/create" class="btn btn-sm btn-neutral">New Server</a>
+                            <a href="/create" class="btn btn-sm btn-neutral">สร้าง Server</a>
                         </div>
                     </div>
                     <%
@@ -129,8 +128,8 @@
                                         </div>
                                     </div>
                                     <p class="mt-3 mb-0 text-sm">
-                                        <span class="text-success mr-2">Fetched</span>
-                                        <span class="text-nowrap">from <strong>API</strong></span>
+                                        <span class="text-success mr-2"></span>
+                                        <span class="text-nowrap"> <strong></strong></span>
                                     </p>
                                 </div>
                             </div>
@@ -153,8 +152,8 @@
                                         </div>
                                     </div>
                                     <p class="mt-3 mb-0 text-sm">
-                                        <span class="text-success mr-2">Fetched</span>
-                                        <span class="text-nowrap">from <strong>API</strong></span>
+                                        <span class="text-success mr-2"></span>
+                                        <span class="text-nowrap"> <strong></strong></span>
                                     </p>
                                 </div>
                             </div>
@@ -177,8 +176,8 @@
                                         </div>
                                     </div>
                                     <p class="mt-3 mb-0 text-sm">
-                                        <span class="text-success mr-2">Fetched</span>
-                                        <span class="text-nowrap">from <strong>API</strong></span>
+                                        <span class="text-success mr-2"></span>
+                                        <span class="text-nowrap"> <strong></strong></span>
                                     </p>
                                 </div>
                             </div>
@@ -202,8 +201,8 @@
                                         </div>
                                     </div>
                                     <p class="mt-3 mb-0 text-sm">
-                                        <span class="text-success mr-2">Fetched</span>
-                                        <span class="text-nowrap">from <strong>API</strong></span>
+                                        <span class="text-success mr-2"></span>
+                                        <span class="text-nowrap"> <strong></strong></span>
                                     </p>
                                 </div>
                             </div>

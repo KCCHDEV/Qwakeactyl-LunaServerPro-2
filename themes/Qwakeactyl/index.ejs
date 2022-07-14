@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   
-    <title><%= extra.home.title %></title>
+    <title>LunaServerPro-Hosting</title>
     <% if (settings.api.arcio.enabled == true) { %>
         <script async src="https://arc.io/widget.min.js#<%= settings.api.arcio.widgetid %>"></script>
     <% } %>
-    <link rel="icon" type="image/png" href="<%= extra.faviconlink %>"/>
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/950770133972971558/997009911403790386/standard.gif"/>
     <style>
         body {
-            background-image: url("https://cdn.discordapp.com/attachments/943921350152704000/947028915073978368/istockphoto-1320110490-612x612.jpg") !important;
+            background-image: url("https://cdn.discordapp.com/attachments/950770133972971558/997011112115568740/wallpapersden.com_anime-girl-cute-eyes_1920x1080.jpg") !important;
             background-repeat: no-repeat !important;
             height: 100% !important;
             background-position: center !important;
@@ -30,17 +30,17 @@
 </head>
 
 <body>
-    <div class="login-dark" style="height: 100vh">
+    <div class="login-dark" style="height: 110vh">
         <form>
             <h2 class="sr-only">Login Form</h2>
             <center>
-            <h2>Welcome Back!! </h2>
-            <p>Login to access Dashboard Area</p>
+            <h2>ยินดีต้อนรับสู่ LunaServerPro</h2>
+            <p>Login เพื่อเข้าหน้าหลัก</p>
             </center>
             <div class="form-group"><a href="<%= userinfo ? extra.home.buttontext.loggedin.link : extra.home.buttontext.loggedout.link %>"  class="btn btn-primary btn-block" ><%- userinfo ? extra.home.buttontext.loggedin.text : extra.home.buttontext.loggedout.text %></a>
             <br>
             <center>
-            <p> Made by Qwakeactyl INC</p>
+            <p> Power by Qwakeactyl</p>
             </center>
         </form>
     </div>
