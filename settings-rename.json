@@ -6,7 +6,7 @@
       "secret": "scret",
       "maintenance": false,
 "webhookurl":"",
-      "note": "this iwebhook url is for contact us",
+      "note1": "this iwebhook url is for contact us",
       
       "sitekey": "",
       "secretkey":"",
